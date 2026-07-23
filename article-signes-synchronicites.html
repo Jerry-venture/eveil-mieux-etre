@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signes et synchronicités : comment les reconnaître ? - Éveil & Mieux-Être</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #2d2d2d;
+            line-height: 1.8;
+            background: #faf9f7;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .logo { font-size: 1.3rem; font-weight: 700; color: #7c5cbf; }
+        .logo span { color: #e8a87c; }
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            font-size: 0.9rem;
+            margin-left: 20px;
+        }
+        .nav-links a:hover { color: #7c5cbf; }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .article-header {
+            margin-bottom: 40px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #f0e6ff;
+            color: #7c5cbf;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1.3;
+            color: #1a1a2e;
+            margin-bottom: 15px;
+        }
+        .meta {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        .featured-image {
+            background: linear-gradient(135deg, #f0e6ff, #fce4d6);
+            border-radius: 20px;
+            padding: 60px 40px;
+            text-align: center;
+            font-size: 4rem;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+        }
+        
+        .highlight {
+            background: #f0e6ff;
+            border-left: 4px solid #7c5cbf;
+            padding: 20px 25px;
+            border-radius: 0 12px 12px 0;
+            margin: 30px 0;
+            font-style: italic;
+            color: #444;
+        }
+        
+        .sign-list {
+            list-style: none;
+            padding: 0;
+        }
+        .sign-list li {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.04);
+            border: 1px solid #f0eee9;
+        }
+        .sign-list li strong {
+            color: #7c5cbf;
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        .sign-list li p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        
+        .product-card {
+            background: linear-gradient(135deg, #f8f4ff, #fff5ef);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        .product-card h3 { color: #7c5cbf; margin-bottom: 10px; }
+        .product-card .price { font-size: 1.8rem; font-weight: 800; color: #1a1a2e; }
+        .product-card .rating { color: #e8a87c; margin: 10px 0; font-size: 1.2rem; }
+        .product-card .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #7c5cbf;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+        .product-card .btn:hover { transform: translateY(-2px); }
+        .product-card .disclaimer {
+            font-size: 0.75rem;
+            color: #aaa;
+            margin-top: 10px;
+        }
+
+        .newsletter-box {
+            background: linear-gradient(135deg, #7c5cbf, #9b7fd4);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            color: white;
+            margin: 40px 0;
+        }
+        .newsletter-box h3 { font-size: 1.4rem; margin-bottom: 10px; }
+        .newsletter-box p { color: rgba(255,255,255,0.85); margin-bottom: 0; }
+        
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #aaa;
+            font-size: 0.85rem;
+            border-top: 1px solid #eee;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 1.7rem; }
+            nav { padding: 15px 20px; flex-direction: column; gap: 10px; }
+            .nav-links a { margin: 0 10px; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Éveil & <span>Mieux-Être</span></div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="#">Articles</a>
+            <a href="#">Guides</a>
+        </div>
+    </nav>
+
+    <article class="container">
+        <div class="article-header">
+            <span class="tag">Spiritualité</span>
+            <h1>Signes et synchronicités : comment les reconnaître et les interpréter ?</h1>
+            <div class="meta">📅 23 juillet 2026 · ☕ 6 min de lecture</div>
+        </div>
+
+        <div class="featured-image">🔮✨🌙</div>
+
+        <p>Tu as déjà regardé l'heure et vu <strong>11:11</strong> ? Tu penses à quelqu'un et cette personne t'envoie un message à l'instant même ? Tu tombes sur le même mot, le même symbole, plusieurs fois dans la même journée ?</p>
+
+        <p>Bienvenue dans le monde fascinant des <strong>signes et synchronicités</strong>. Si tu es en pleine <strong>quête de sens</strong> ou que tu traverses une période de <strong>transformation personnelle</strong>, ces phénomènes ont tendance à s'intensifier. Mais comment savoir s'il s'agit d'un vrai message ou d'une simple coïncidence ?</p>
+
+        <div class="highlight">
+            "Une synchronicité est une coïncidence significative — un moment où le monde extérieur semble refléter parfaitement ce qui se passe à l'intérieur de toi." — Carl Jung
+        </div>
+
+        <h2>🔍 Qu'est-ce qu'une synchronicité ?</h2>
+        <p>Le concept a été introduit par le psychiatre Carl Gustav Jung au début du XXe siècle. Pour lui, une synchronicité est une <strong>coïncidence qui n'est pas due au hasard</strong>, mais qui révèle une connexion entre notre psyché et le monde extérieur.</p>
+        <p>Contrairement à une simple coïncidence, la synchronicité <strong>résonne avec toi</strong>. Elle te touche, te surprend, te fait dire "tilt". Et généralement, elle arrive pile au moment où tu en as besoin.</p>
+
+        <h2>🪞 Les 7 signes les plus fréquents</h2>
+        <ul class="sign-list">
+            <li>
+                <strong>⏰ 11:11, 22:22, des heures miroirs</strong>
+                <p>Le plus connu. Voir régulièrement des heures doublées serait un signal d'éveil spirituel, t'invitant à être présent.e et à aligner tes pensées avec tes intentions.</p>
+            </li>
+            <li>
+                <strong>🪶 Plumes blanches sur ton chemin</strong>
+                <p>Beaucoup y voient un message des guides ou d'un être cher disparu. Apparaissent souvent dans des moments de doute.</p>
+            </li>
+            <li>
+                <strong>🔁 Nombres ou mots qui se répètent</strong>
+                <p>Le même chiffre (7, 11, 222), le même mot ou la même chanson qui revient sans cesse, dans des contextes différents.</p>
+            </li>
+            <li>
+                <strong>💭 Penser à quelqu'un qui te contacte aussitôt</strong>
+                <p>Classique mais puissant. Un lien télépathique ? Une simple coïncidence ? Toi seule sais si c'était "trop" précis.</p>
+            </li>
+            <li>
+                <strong>🦋 Animaux qui apparaissent de façon insistante</strong>
+                <p>Papillon, corbeau, libellule, araignée… chaque animal porteur d'un symbolisme qui fait écho à ta situation.</p>
+            </li>
+            <li>
+                <strong>📖 Un livre qui te tombe entre les mains au bon moment</strong>
+                <p>Tu cherches une réponse, et le premier livre que tu vois contient exactement ce qu'il te faut.</p>
+            </li>
+            <li>
+                <strong>🌙 Rêves prémonitoires ou symboliques</strong>
+                <p>Des rêves vivaces qui se réalisent ou qui t'apportent une clé de compréhension pour ta vie éveillée.</p>
+            </li>
+        </ul>
+
+        <h2>📖 Le livre qui t'aidera à aller plus loin</h2>
+        <p>Si tu veux apprendre à lire ces messages et développer ta sensibilité aux synchronicités, <strong>"Signes, Synchronicités et Rêves"</strong> est le guide le plus complet du moment. Noté <strong>4.9/5</strong> par les lecteurs, il t'accompagne pas à pas pour comprendre le langage de l'univers.</p>
+
+        <div class="product-card">
+            <h3>🌟 Signes, Synchronicités et Rêves</h3>
+            <p style="color:#888;">Le guide sensible pour lire les messages de l'invisible</p>
+            <div class="rating">⭐⭐⭐⭐⭐ 4.9 / 5</div>
+            <div class="price">15,95 €</div>
+            <a href="https://www.amazon.fr/dp/TODO" class="btn" target="_blank" rel="noopener">Voir sur Amazon →</a>
+            <p class="disclaimer">🔗 Lien d'affiliation — Je touche une commission si tu achètes via ce lien.</p>
+        </div>
+
+        <h2>✨ Comment développer ton intuition au quotidien</h2>
+        <p>Au-delà des signes, la clé c'est <strong>l'attention</strong>. Plus tu es présent.e et à l'écoute, plus tu remarques ces coïncidences. Voici trois pratiques simples :</p>
+
+        <p><strong>1. 🖋 Tiens un journal des synchronicités</strong><br>
+        Note chaque coïncidence qui te marque, avec la date, ce que tu ressentais, et ce qui s'est passé ensuite. Tu verras des motifs apparaître.</p>
+
+        <p><strong>2. 🧘 Médite 5 minutes par jour</strong><br>
+        Le silence intérieur est le terreau des intuitions. Même 5 minutes de calme le matin changent tout.</p>
+
+        <p><strong>3. 🙏 Fais confiance</strong><br>
+        Plus tu doutes, plus les signes semblent s'effacer. Accueille-les avec gratitude et curiosité, sans chercher à tout contrôler.</p>
+
+        <div class="highlight">
+            "L'univers ne t'envoie jamais ce que tu n'es pas prêt.e à recevoir. Si tu vois ce message, c'est que le moment est venu pour toi d'ouvrir les yeux."
+        </div>
+
+        <div class="newsletter-box">
+            <h3>📩 Reçois les prochains articles</h3>
+            <p>Méditations guidées, rituels et réflexions chaque semaine.</p>
+            <p style="margin-top: 15px; font-size: 0.9rem;">👉 Bientôt disponible</p>
+        </div>
+    </article>
+
+    <footer>
+        <p>Éveil & Mieux-Être © 2026</p>
+    </footer>
+</body>
+</html>
